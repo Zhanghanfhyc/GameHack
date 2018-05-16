@@ -1,0 +1,23 @@
+{
+  "EnsureBlueWorker":"EnsureEntity[blue_town:blue_civilian:1]",
+  "EnsureBlueBase":"EnsureEntity[blue_civilian:blue_town:1]",
+  "EnsureBlueKnightery":"EnsureEntity[blue_civilian:blue_knightery:2]",
+  "EnsureBlueKnights":"EnsureEntity[blue_knightery:blue_knight:1000]",
+  "BlueKnightAttack":"Filter[AttackMelee:blue_knight]",
+  "BlueKnightChase":"Filter[RunTowards[0.0]:blue_knight]",
+
+  "EnsureBlueArchery":"EnsureEntity[blue_civilian:blue_archery:1]",
+  "EnsureBlueArcher":"EnsureEntity[blue_archery:blue_archer:50]",
+  "BlueArcherAttack":"Filter[AttackRangedMostClosest:blue_archer]",
+  "BlueArcherChase":"Filter[RunTowards[0.0]:blue_archer]",
+
+
+  "BlueWorkerEvade":"Filter[RunAway[.5]:blue_civilian]",
+  "EnsureRedWorker":"EnsureEntity[red_town:red_civilian:1]",
+  "EnsureRedBase":"EnsureEntity[red_civilian:red_town:1]",
+  "EnsureRedKnightery":"EnsureEntity[red_civilian:red_knightery:2]",
+  "EnsureRedKnights":"EnsureEntity[red_knightery:red_knight:1000]",
+  "RedKnightAttack":"Filter[AttackMelee:red_knight]",
+  "RedKnightChase":"Filter[RunTowards[0.0]:red_knight]",
+  "RedWorkerEvade":"Filter[RunAway[.5]:red_civilian]"
+}

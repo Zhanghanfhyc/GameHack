@@ -1,0 +1,15 @@
+{
+  "random":"RandomController",
+  "noop":"NoOpController",
+  "Rush":"Rush[blue_town:blue_civilian:blue_knight]",
+  "WorkerRush":"WorkerRush[blue_town:blue:civilian]",
+  "ProRushBlue":"ProRush[blue_town:blue_civilian:blue_knightery:blue_knight]",
+  "ProRushRed":"ProRush[red_town:red_civilian:red_knightery:red_knight]",
+  "uct":"UCT[1000:-1:100:10:RandomBiasedAI:SqrtEvalCustom]",
+  "uctr":"UCT[1000:-1:100:10:SqrtEvalCustom]",
+  "duct":"duct",
+  "nmcts": "nmcts",
+  "ProRuleRushBlue":"PRA[EnsureBlueBase,EnsureBlueWorker,EnsureBlueKnightery,EnsureBlueKnights,BlueKnightAttack,BlueKnightChase,BlueWorkerEvade]",
+  "ProRuleRushRangedBlue":"PRA[EnsureBlueBase,EnsureBlueWorker,EnsureBlueArchery,EnsureBlueArcher,BlueArcherAttack,BlueArcherChase,BlueWorkerEvade]",
+  "ProRuleRushRed":"PRA[EnsureRedBase,EnsureRedWorker,EnsureRedKnightery,EnsureRedKnights,RedKnightAttack,RedKnightChase,RedWorkerEvade]"
+}

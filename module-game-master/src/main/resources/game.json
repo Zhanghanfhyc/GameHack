@@ -1,0 +1,13 @@
+{
+  "hexSize":60,
+  "turnLimit": 100,
+  "resourcesFileName":"resources.json",
+  "terrainFileName": "terrain.json",
+  "typeFiles":["types.json", "abstract_entities.json"],
+  "evalFileName":"eval.json",
+  "aiFileName":"ai.json",
+  "ruleFileName":"rules.json",
+  "rules":[
+    "LastManStanding"
+  ]
+}

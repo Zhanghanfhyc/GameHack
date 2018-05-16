@@ -1,0 +1,17 @@
+[
+  {
+    "name": "gold",
+    "color": "238,244,66",
+    "image": "rock_2"
+  },
+  {
+    "name": "wood",
+    "color": "153,51,0",
+    "image": "forest_2"
+  },
+  {
+    "name": "food",
+    "color": "200,0,0",
+    "image": "plain_1"
+  }
+]

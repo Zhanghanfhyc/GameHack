@@ -1,0 +1,5 @@
+[
+  {"id": "plain", "requiredTags": {"grass": 1}, "image": "terrain/sheepHex"},
+  {"id": "water", "requiredTags": {}, "image": "terrain/waterHex"},
+  {"id": "mountain", "requiredTags": {}, "image": "terrain/oreHex"}
+]

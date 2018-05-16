@@ -1,0 +1,205 @@
+[
+  {
+    "name": "blue_civilian",
+    "_extends": "abstract_civilian",
+    "sprite": {
+      "image": "units/blue_worker"
+    },
+    "_actions": [
+      "Build[blue_archery]",
+      "Build[blue_knightery]"
+    ]
+  },
+  {
+    "name": "red_civilian",
+    "_extends": "abstract_civilian",
+    "sprite": {
+      "image": "units/red_worker"
+    },
+    "_actions": [
+      "Build[red_archery]",
+      "Build[red_knightery]"
+    ]
+  },
+  {
+    "name": "blue_archer",
+    "_extends": "abstract_archer",
+    "sprite": {
+      "image": "units/blue_spear"
+    }
+  },
+  {
+    "name": "red_archer",
+    "_extends": "abstract_archer",
+    "sprite": {
+      "image": "units/red_spear"
+    }
+  },
+  {
+    "name": "blue_knight",
+    "_extends": "abstract_knight",
+    "sprite": {
+      "image": "units/blue_shield"
+    }
+  },
+  {
+    "name": "red_knight",
+    "_extends": "abstract_knight",
+    "sprite": {
+      "image": "units/red_shield"
+    }
+  },
+  {
+    "name": "blue_king",
+    "_extends": "abstract_king",
+    "sprite": {
+      "image": "units/blue_ruler"
+    }
+  },
+  {
+    "name": "red_king",
+    "_extends": "abstract_king",
+    "sprite": {
+      "image": "units/red_ruler"
+    }
+  },
+  {
+    "name": "farm",
+    "sprite": {
+      "image": "buildings/medieval_farm",
+      "scale": 0.75
+    },
+    "properties": {
+      "health": 5
+    },
+    "cost": {
+      "wood": 20
+    },
+    "_actions": [
+      "Generate[food:20]"
+    ]
+  },
+  {
+    "name": "lumber_mill",
+    "sprite": {
+      "image": "buildings/medieval_lumber",
+      "scale": 0.75
+    },
+    "properties": {
+      "health": 5
+    },
+    "cost": {
+      "food": 50,
+      "gold": 10
+    },
+    "_actions": [
+      "Mine[wood:15]"
+    ]
+  },
+  {
+    "name": "gold_mine",
+    "sprite": {
+      "image": "buildings/medieval_mine",
+      "scale": 0.75
+    },
+    "properties": {
+      "health": 5
+    },
+    "cost": {
+      "food": 50,
+      "wood": 100
+    },
+    "_actions": [
+      "Mine[gold:10]"
+    ]
+  },
+  {
+    "name": "marketplace",
+    "sprite": {
+      "image": "buildings/medieval_cabin",
+      "scale": 0.75
+    },
+    "properties": {
+      "health": 10
+    },
+    "cost": {
+      "food": 100,
+      "wood": 100,
+      "gold": 100
+    },
+    "_actions": [
+      "Exchange[wood:10:gold:1]",
+      "Exchange[wood:10:food:5]",
+      "Exchange[food:5:wood:8]",
+      "Exchange[food:20:gold:1]",
+      "Exchange[gold:5:wood:40]",
+      "Exchange[gold:5:food:80]"
+    ]
+  },
+  {
+    "name": "blue_town",
+    "_extends": "abstract_town",
+    "sprite": {
+      "image": "buildings/medieval_largeCastle",
+      "scale": 0.75
+    },
+    "_actions": [
+      "Build[blue_civilian]"
+    ]
+  },
+  {
+    "name": "red_town",
+    "_extends": "abstract_town",
+    "sprite": {
+      "image": "buildings/medieval_largeCastle",
+      "scale": 0.75
+    },
+    "_actions": [
+      "Build[red_civilian]"
+    ]
+  },
+  {
+    "name": "blue_archery",
+    "_extends": "abstract_archery",
+    "sprite": {
+      "image": "buildings/medieval_archery",
+      "scale": 0.75
+    },
+    "_actions": [
+      "Build[blue_archer]"
+    ]
+  },
+  {
+    "name": "red_archery",
+    "_extends": "abstract_archery",
+    "sprite": {
+      "image": "buildings/medieval_archery",
+      "scale": 0.75
+    },
+    "_actions": [
+      "Build[red_archer]"
+    ]
+  },
+  {
+    "name": "blue_knightery",
+    "_extends": "abstract_knightery",
+    "sprite": {
+      "image": "buildings/medieval_blacksmith",
+      "scale": 0.75
+    },
+    "_actions": [
+      "Build[blue_knight]"
+    ]
+  },
+  {
+    "name": "red_knightery",
+    "_extends": "abstract_knightery",
+    "sprite": {
+      "image": "buildings/medieval_blacksmith",
+      "scale": 0.75
+    },
+    "_actions": [
+      "Build[red_knight]"
+    ]
+  }
+]
